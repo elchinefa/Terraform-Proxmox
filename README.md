@@ -49,7 +49,5 @@ terraform destroy -auto-approve
 
 This README provides you with the basic steps to get started with Terraform for Proxmox. Make sure to refer to the official Terraform documentation for more advanced usage and customization options.
 
-If you encounter any issues or have questions, feel free to reach out for assistance.
-```
 
-You can copy this text and paste it into your README.md file while preserving the formatting.
+```

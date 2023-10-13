@@ -47,7 +47,3 @@ To delete the VMs and associated resources, use the following command:
 terraform destroy -auto-approve
 ```
 
-This README provides you with the basic steps to get started with Terraform for Proxmox. Make sure to refer to the official Terraform documentation for more advanced usage and customization options.
-
-
-```

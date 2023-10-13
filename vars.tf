@@ -8,11 +8,13 @@ variable "proxmox_host" {
 }
 
 variable "template_name" {
-    default = "template-ubuntu-server"
+    #default = "template-ubuntu-server"
+    default = "Template-Ubuntu-server"
 }
 
 variable "vm_names" {
   type    = list(string)
   default = ["master", "worker1"]
+  #default = []
 }
 

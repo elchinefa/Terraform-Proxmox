@@ -5,7 +5,12 @@ This README provides instructions for deploying virtual machines using Terraform
 
 ## Prerequisites
 
-1. **VM Template**: Ensure that you have a VM template on your Proxmox server, which Terraform will use as the base image. Sometimes VMs may receive the same IP address. To prevent this, delete the content of `/etc/machine-id` on the VM template.
+1. **VM Template**: 
+    - Ensure that you have a VM template on your Proxmox server, which Terraform will use as the base image. Sometimes VMs may receive the same IP address. To prevent this, delete the content of `/etc/machine-id` on the VM template.
+    - Make sure Linux Template has **qemu-guest-agent**:  
+          `systemctl status qemu-guest-agent`
+          OR Install
+          `sudo apt-get install qemu-guest-agent`
 
 2. **Clone the Repository**: Clone this repository to your local machine and make the necessary configuration changes in the Terraform configuration files.
 

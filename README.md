@@ -11,6 +11,7 @@ This README provides instructions for deploying virtual machines using Terraform
           `systemctl status qemu-guest-agent`
           OR Install
           `sudo apt-get install qemu-guest-agent`
+          Without  qemu-guest-agent terraform will not be able to show VM's IP Addresses
 
 2. **Clone the Repository**: Clone this repository to your local machine and make the necessary configuration changes in the Terraform configuration files.
 

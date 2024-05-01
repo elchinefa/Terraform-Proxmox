@@ -1,4 +1,3 @@
-```markdown
 # Terraform Proxmox Deployment
 
 This README provides instructions for deploying virtual machines using Terraform on a Proxmox environment. Please follow these steps to set up and manage your VMs.
@@ -34,7 +33,7 @@ To deploy VMs on your Proxmox server, follow these steps:
    ```bash
    terraform init
    ```
-
+ 
 2. Preview the changes Terraform will make:
    ```bash
    terraform plan
